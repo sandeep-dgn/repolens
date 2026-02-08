@@ -1,0 +1,38 @@
+# --- SECURITY & SECRETS ---
+# Never commit your API keys or sensitive hackathon credits
+.env
+.env.local
+.env.*
+
+# --- AI & AGENT SPECIFIC ---
+# These are local logs or caches Claude creates that don't belong in the repo
+.claude/
+.claude_session/
+.claudeignore
+
+# --- VIRTUAL ENVIRONMENTS ---
+# We keep our local 'bubbles' out of the repo
+venv/
+.venv/
+env/
+bin/
+lib/
+
+# --- PYTHON HYGIENE ---
+# Ignore compiled files and temporary build data
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+build/
+dist/
+*.egg-info/
+
+# --- DOCUMENTATION BUILD ---
+# Ignore the generated site folder (MkDocs creates this)
+site/
+
+# --- SYSTEM & IDE ---
+.DS_Store
+.vscode/
