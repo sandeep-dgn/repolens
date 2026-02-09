@@ -29,9 +29,9 @@
 2. **Set up a virtual environment:**
    ```bash
    python -m venv .venv
+   .venv\Scripts\activate
 
-```bash
-python -m venv .venv
+
 
    
   
