@@ -1,0 +1,3 @@
+anthropic
+python-dotenv
+mkdocs-material
