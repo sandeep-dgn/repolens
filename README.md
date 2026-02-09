@@ -23,7 +23,7 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/sandeep-dgn/repolens.git](https://github.com/sandeep-dgn/repolens.git)
+   git clone [https://github.com/sandeep-dgn/repolens]
    cd repolens
 
 2. **Set up a virtual environment:**
