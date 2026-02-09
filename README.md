@@ -1,18 +1,37 @@
-# RepoLens 🔍
+# 🔍 RepoLens
 
-**RepoLens** is an autonomous AI agent developed for the 2026 Claude Code Hackathon. It leverages the 1M token context of **Claude Opus 4.6** to "read" entire repositories and generate professional, high-fidelity documentation websites automatically.
+**RepoLens** is an autonomous AI agent designed to scan, analyze, and document entire code repositories. Built for the 2026 Claude Code Hackathon, it transforms complex codebases into structured, living documentation using high-speed inference.
 
-## ✨ Key Features
-- **Context-Aware Analysis:** Processes entire codebases at once using Opus 4.6.
-- **Auto-Diagramming:** Generates Mermaid.js architecture flowcharts from source code.
-- **Living Docs:** Automatically updates documentation as code changes.
-- **CLI-Native:** Integrated directly into the developer workflow via Claude Code.
+---
+
+## 🚀 Key Features
+
+- **LPU™ Powered Analysis**: Leverages Groq's Inference Engine for near-instant repository auditing.
+- **Context-Aware Summarization**: Automatically reads project files and identifies core architectural patterns.
+- **Living Documentation**: Generates a professional-grade documentation site that updates as your code evolves.
+- **Production-Ready Layout**: Implements the `src/` directory standard for clean, modular development.
 
 ## 🛠️ Tech Stack
-- **Engine:** Python 3.10+
-- **LLM:** Anthropic Claude Opus 4.6
-- **Documentation:** MkDocs (Material Theme)
-- **Protocol:** Model Context Protocol (MCP)
 
-## 🚀 Quick Start
-*(Coming soon: detailed installation steps)*
+- **Inference Engine**: [Groq Cloud](https://console.groq.com/)
+- **Model**: `llama-3.3-70b-versatile` (State-of-the-art 70B parameter model)
+- **Programming Language**: Python 3.10+
+- **Documentation Framework**: [MkDocs Material](https://squidfunk.github.io/mkdocs-material/)
+- **Diagramming**: Mermaid.js support via MkDocs plugins.
+
+## 📦 Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/sandeep-dgn/repolens.git](https://github.com/sandeep-dgn/repolens.git)
+   cd repolens
+
+2. **Set up a virtual environment:**
+   ```bash
+   python -m venv .venv
+
+   ```bash
+   .venv\Scripts\activate
+
+   
+  
