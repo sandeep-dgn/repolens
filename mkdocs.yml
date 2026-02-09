@@ -1,0 +1,17 @@
+site_name: RepoLens
+theme:
+  name: material
+  palette:
+    scheme: slate # Dark mode for that 'hacker' aesthetic
+    primary: indigo
+
+plugins:
+  - search
+  - mermaid2 # This allows the AI's Mermaid diagrams to actually render
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid_custom
