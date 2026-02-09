@@ -37,7 +37,7 @@
 
 ## 🔐 Configuration
 RepoLens requires a Groq API key to function. Create a .env file in the root directory:
- ```plaintext
+ ```bash
  GROQ_API_KEY=gsk_your_actual_key_here
 
 
