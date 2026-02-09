@@ -41,14 +41,6 @@ RepoLens requires a Groq API key to function. Create a .env file in the root dir
  GROQ_API_KEY=gsk_your_actual_key_here
 
 
-## 📖 Usage
-
-1. **Run the AI Analyst**
-Execute the main script to scan your repository and generate a code summary:
- ```bash
- python main.py
-
-
 
    
   
