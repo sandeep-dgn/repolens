@@ -31,6 +31,15 @@
    python -m venv .venv
    .venv\Scripts\activate
 
+3. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+
+## 🔐 Configuration
+RepoLens requires a Groq API key to function. Create a .env file in the root directory:
+ ```plaintext
+ GROQ_API_KEY=gsk_your_actual_key_here
+
 
 
    
